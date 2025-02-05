@@ -34,7 +34,7 @@ Here is the video of 3D printing the body and caps on the Prusa Mk3S+ printer (h
 
 <img src="Images/nozzle_design.png" width="450" height="200"> 
 
-This figure shows 3D model of the tube-extruding printing nozzle including a schematic and a cross-sectional view. 
+This figure shows a 3D model of the tube-extruding printing nozzle, including a schematic and a cross-sectional view. 
 
 [https://www.youtube.com/watch?v=pW0tsSzDVcI] is a video showing the tube-extruding in progress. We used a Prusa Mini+ FDM printer ($399) and the open-source Pronterface
 software to control the printer. To extrude the tubes, we use G-code commands to configure the print parameters and initiate the tubing extrusion process. For Ninjaflex 85A filament, we set the nozzle temperature to 235 ◦C at 100% fan speed and extrude 1000 mm of filament. Here are the commands to extrude tubing. 
@@ -45,9 +45,12 @@ software to control the printer. To extrude the tubes, we use G-code commands to
 * M104 S235		# temperature to 235	# wait for temperature to reach 235
 * g0 f150 e1000		# extrude 1000 mm of filament with speed of 150 	# 1000 is the max length that can be sent one time
 
+## Alternative to extruded tubing
+An off-the-shelf tubing(5236K203, McMaster-Carr, https://www.mcmaster.com/5236K203/) can also be used to fabricate the bistable device since the nozzle might not be available for purchase/fabrication.  
+
 
 ## Assembly of 3D printed valve 
-Once you have all the components, we will investigate assembly process. You will need following tools for the assembly process (Figure 2A).
+Once you have all the components, we will investigate the assembly process. You will need the following tools for the assembly process (Figure 2A).
 *	Flush cutter
 *	Superglue
 *	Twizers
